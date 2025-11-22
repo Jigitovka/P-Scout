@@ -1,0 +1,43 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+.vscode/
+.idea/
+
+# Local environment / secrets
+*.env
+*.local
+
+# Application variable data
+# Ignore entire var folder
+var/
+
+# BUT if you want to keep var/ folder itself
+# and ignore only logs/ and db/, use this instead:
+# var/logs/
+# var/db/
+# !var/.gitkeep
+
+# Logs
+*.log
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Pipenv
+Pipfile.lock
