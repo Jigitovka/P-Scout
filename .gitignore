@@ -41,3 +41,5 @@ var/
 
 # Pipenv
 Pipfile.lock
+
+notes.txt
