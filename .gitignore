@@ -42,4 +42,7 @@ var/
 # Pipenv
 Pipfile.lock
 
-notes.txt
+# Currently, leave out main.py, as I am doing tests
+main.py
+
+*.txt
